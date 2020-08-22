@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgnd"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    >
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="10dp"
+       android:hint="Name :"
+       android:textColorHint="@android:color/white"
+       android:textSize="20sp"
+       android:textColor="@android:color/white"
+       android:backgroundTint="@color/colorAccent"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Mobile :"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email :"
+        android:textColorHint="@android:color/white"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Address :"
+        android:textColorHint="@android:color/white"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="APPLY"
+        android:textStyle="bold"
+        android:textColor="#0340DA"
+        />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:layout_margin="50dp"
+    android:text="! Contact Us !"
+></Button>
+
+</LinearLayout>

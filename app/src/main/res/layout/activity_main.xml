@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="28dp"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:text="WELCOME"
+        android:textColor="#3884A1"
+
+        android:textStyle="bold"
+        android:textSize="35sp"
+
+         />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/iconpar"
+        android:backgroundTint="#AB34733E"
+        android:cropToPadding="true"
+
+        />
+
+
+
+
+
+        <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8B99CC00"
+    android:hint="Enter Phone Number"
+    android:textSize="20sp"
+            android:layout_margin="10dp"
+    android:inputType="numberDecimal"
+
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88FFC400"
+        android:hint="Enter Password"
+        android:layout_margin="10dp"
+        android:password="true"
+        android:textSize="20sp"
+        android:inputType="numberDecimal"
+
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:onClick="menu"
+        android:text="LOG IN"
+        android:textStyle="bold"
+        android:textColor="#0340DA"
+        />
+
+    <TextView
+        android:gravity="bottom|center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New? Register yourself !"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+       android:textColor="@android:color/holo_green_dark"
+        android:textSize="20sp"
+        android:onClick="register"
+        android:text="Sign Up"
+        />
+</LinearLayout>
+
