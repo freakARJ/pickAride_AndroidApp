@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#94ddf9"
+    android:orientation="vertical"
+
+    tools:context=".rent">
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/fzv2"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+
+        android:background="@drawable/fzv2"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fece2f"
+        android:text="FZS V2 || 600tk/hour"
+        android:fontFamily="@font/bungee"
+        android:textSize="15dp"
+        android:gravity="center"
+        />
+    <Button
+        android:id="@+id/tvs"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/tvs"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TVS Metro || 300tk/hour"
+        android:fontFamily="@font/bungee"
+        android:background="#fece2f"
+        android:textSize="15dp"
+        android:gravity="center"
+        />
+    <Button
+    android:id="@+id/livo"
+    android:layout_gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/livo"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Livo || 400tk/hour"
+        android:fontFamily="@font/bungee"
+        android:textSize="15dp"
+        android:background="#fece2f"
+        android:gravity="center"
+        />
+</LinearLayout>

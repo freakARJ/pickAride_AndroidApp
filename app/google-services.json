@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "762326733007",
+    "firebase_url": "https://pickaride-90254.firebaseio.com",
+    "project_id": "pickaride-90254",
+    "storage_bucket": "pickaride-90254.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762326733007:android:46bee0088b521fc90667ba",
+        "android_client_info": {
+          "package_name": "com.example.pickaride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762326733007-8csvhe55spnvobqj5c9cmbapjmmonuq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbJhlf7EDK1Y12CNIQrg05FGAYUzaqtqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762326733007-8csvhe55spnvobqj5c9cmbapjmmonuq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
